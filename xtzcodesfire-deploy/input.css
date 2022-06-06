@@ -1,0 +1,40 @@
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        .prog {
+            animation: progress 1s ease-in-out 1;
+        }
+        
+        @keyframes progress {
+            0% {
+                width: 0;
+            }
+            50% {
+                width: 70vh
+            }
+            90% {
+                width: 90vh
+            }
+            100% {
+                width: 100vh;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .xtz {
+                padding: 0;
+                padding-top: 5rem;
+            }
+        }
+        
+        @media only screen and (max-width: 814px) {
+            .tag {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1004px) {
+            p {
+                padding: auto;
+            }
+        }
